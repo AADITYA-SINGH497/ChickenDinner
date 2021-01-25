@@ -1,0 +1,28 @@
+h1{
+    background-color: #A31621;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Audiowide;
+    color: white;
+}
+form{
+    background-color: #FCA311;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Audiowide;
+    color: black;
+}
+    @media screen(max-width: 200px) {
+          .crumbs{
+              display: block;
+              padding: 200px;
+          }       
+    }
+    @supports(display:block;){
+        .crumbs{
+            display: block;
+        }
+    }
+    body{
+        background-color: #FBE799;
+    }
